@@ -367,6 +367,7 @@ section {overflow: hidden;}
     bottom: 10px;
     cursor: pointer;
     display: none;
+    z-index: 99;
 }
 .to-top i {
     color: #4d3db9;
