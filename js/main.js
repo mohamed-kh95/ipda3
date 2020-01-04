@@ -58,9 +58,6 @@ $(function () {
     
 });
 $(window).on('load', function () {
-    $('body').css({
-        overflow: 'hidden'
-    })
     $('.loading-override').fadeOut(1000, function () {
         $('body').css({
             overflow: 'auto'
