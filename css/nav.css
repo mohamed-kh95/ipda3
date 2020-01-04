@@ -1,0 +1,27 @@
+/* Start Navbar */
+/* #f8f9fa */
+.navbar {
+    padding: 0;
+}
+.navbar-light .navbar-brand {
+    height: 75px;
+}
+.navbar-light .navbar-brand img {
+    max-height: 100%;
+}
+.navbar-toggler {
+    border: none;
+    outline: none!important;
+    padding: 0;
+}
+.navbar-light .nav-icon {
+    width: 25px;
+    height: 3px;
+    background-color: #8eceef;
+    display: block;
+    margin-bottom: 5px;
+}
+.navbar-light .nav-icon:last-of-type {
+    margin-bottom: 0;
+}
+/* End Navbar */
