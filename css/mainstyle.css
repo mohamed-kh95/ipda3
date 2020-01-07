@@ -153,6 +153,11 @@ section {overflow: hidden;}
     background-image: url('../img/work/bg30-Ar1web.gif');
     padding: 60px 0px;
 }
+.some-works .details-link {
+    display: block;
+    text-decoration: none;
+    margin: auto;
+}
 .some-works .work-item {
     margin-bottom: 25px;
 }
@@ -160,15 +165,39 @@ section {overflow: hidden;}
     border-radius: 20px;
     overflow: hidden;
     margin: auto;
+    position: relative;
+}
+.some-works .card span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #233142;
+    transition: all .8s ease-in-out;
+}
+.some-works .card:hover span {
+    height: 50%;
+    z-index: 1;
 }
 .some-works .card .card-img-top {
     border-radius: 0px 0px 20px 20px;
     height: 200px;
     width: 100%;
-    
+    z-index: 2;
 }
+.some-works .card .card-body {
+    z-index: 2;
+}
+
 .some-works .card h6 {
     margin: 0;
+    color: #000;
+    transition: color .8s ease-in-out;
+
+}
+.some-works .card:hover h6 {
+    color: #FFF;
 }
 .some-works .more a {
     background-color: #233142;
@@ -192,11 +221,11 @@ section {overflow: hidden;}
 }
 .some-works .more a:hover{
     animation: btn-wave .8s infinite ease-in-out;
-    border: 2px solid #8eceef;
-    background: none;
+    border: 2px solid #233142;
+    
 }
 .some-works .more a:hover span:first-of-type{
-    color: #8eceef;
+    color: #233142;
     font-weight: bold;
 }
 .some-works .more a:hover span:last-of-type {
@@ -260,9 +289,9 @@ section {overflow: hidden;}
     color: #FFF;
 }
 .articles .art-item .card .card-body:last-of-type .read-now:hover{
-    border: 1px solid #8eceef;
+    border: 1px solid #233142;
     background: none;
-    color: #8eceef;
+    color: #233142;
     transition: all .4s linear;
 }
 
@@ -297,11 +326,11 @@ section {overflow: hidden;}
 }
 .articles .more a:hover{
     animation: btn-wave .8s infinite ease-in-out;
-    border: 2px solid #8eceef;
-    background: none;
+    border: 2px solid #233142;
+    
 }
 .articles .more a:hover span:first-of-type{
-    color: #8eceef;
+    color: #233142;
     font-weight: bold;
 }
 .articles .more a:hover span:last-of-type {
