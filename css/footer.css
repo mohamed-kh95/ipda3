@@ -1,36 +1,52 @@
 footer {
-    overflow: hidden;
-    padding: 60px 0px;
-    background-image: url('../img/footer/footer.jpg');
-    background-size: cover;
-    background-position: bottom;
+  overflow: hidden;
+  padding: 60px 0px;
+  background-image: url("../img/footer/footer.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 footer .footer-img {
-    height: 280px;
-    padding-bottom: 20px;
+  height: 280px;
+  padding-bottom: 20px;
 }
 footer .footer-img img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 footer .footer-text .logo {
-    height: 70px;
+  height: 70px;
 }
 footer .footer-text .logo img {
-    max-height: 100%;
+  max-height: 100%;
 }
 footer .footer-text .text p {
-    margin-top: 20px;
-    color: #FFF;
+  margin-top: 20px;
+  color: #fff;
 }
 footer .icons {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
 }
 footer .icons .icon {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 footer .icons .icon a {
-    color: #FFF;
+  color: #fff;
+}
+footer .icons .icon:first-of-type:hover i {
+  color: #25d366;
+  transition: color 0.7s ease-in-out;
+}
+footer .icons .icon:nth-of-type(2):hover i {
+  color: #34b7f1;
+  transition: color 0.7s ease-in-out;
+}
+footer .icons .icon:nth-of-type(3):hover i {
+  color: #3b5998;
+  transition: color 0.7s ease-in-out;
+}
+footer .icons .icon:last-of-type:hover i {
+  color: #bd2c00;
+  transition: color 0.7s ease-in-out;
 }

@@ -8,8 +8,8 @@
 }
 
 .card-carousel .my-card {
-  height: 40rem;
-  width: 10rem;
+  height: 30rem;
+  width: 12rem;
   position: relative;
   z-index: 1;
   -webkit-transform: scale(0.6) translateY(-2rem);
@@ -21,18 +21,18 @@
 }
 
 .card-carousel .my-card img {
-    width: 400px;
-    height: 100%;
+  width: 15rem;
+  height: 100%;
 }
-@media (max-width: 768px) { 
-    .card-carousel .my-card {
-        height: 15rem;
-        width: 15rem;
-    }
-    .card-carousel .my-card img {
-        width: 100%;
-        height: 100%;
-    }    
+@media (max-width: 768px) {
+  .card-carousel .my-card {
+    height: 15rem;
+    width: 15rem;
+  }
+  .card-carousel .my-card img {
+    width: 100%;
+    height: 100%;
+  }
 }
 .card-carousel .my-card:after {
   content: "";

@@ -1,169 +1,176 @@
 body {
-    font-family: 'cairo', Arial, Helvetica, sans-serif;
-    overflow: hidden;
+  font-family: "cairo", Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 section,
 footer {
-    overflow: hidden;
+  overflow: hidden;
 }
 /* *************** */
 /* Start Title */
 .art-title {
-    width: 100%;
-    padding: 30px 0px;
+  width: 100%;
+  padding: 30px 0px;
 }
 .art-title .title {
-    border-right: 3px solid #3aade6;
-    padding-right: 10px;
+  border-right: 3px solid #3aade6;
+  padding-right: 10px;
 }
 /* End Title */
 /* Start Articles */
 .articles {
-    padding: 60px 0px;
-    background-image: url('../img/articles/articles.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  padding: 60px 0px;
+  background-image: url("../img/articles/articles.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .articles .art-item {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 .articles .art-item .card {
-    width: 90%;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: .5rem .5rem 1rem rgba(0,0,0,.15);
-    box-shadow: -.5rem -.5rem 1rem rgba(0,0,0,.15);
+  width: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-shadow: -0.5rem -0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .articles .art-item .card .card-img-top {
-    height: 250px;
+  height: 250px;
 }
 .articles .art-item .card .card-body:last-of-type {
-    padding-top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .articles .art-item .card .card-body:last-of-type .read-now {
-    background-color: #233142;
-    border-radius: 50px;
-    
-    color: #FFF;
+  background-color: #233142;
+  border-radius: 50px;
+
+  color: #fff;
 }
-.articles .art-item .card .card-body:last-of-type .read-now:hover{
-    border: 1px solid #8eceef;
-    background: none;
-    color: #8eceef;
-    transition: all .4s linear;
+.articles .art-item .card .card-body:last-of-type .read-now:hover {
+  border: 1px solid #8eceef;
+  background: none;
+  color: #8eceef;
+  transition: all 0.4s linear;
 }
 
 .articles .art-item .card .card-body:last-of-type .view i {
-    color: #233142;
+  color: #233142;
 }
 .articles .art-item .card .card-body:last-of-type .view span {
-    color: #9895a8;
+  color: #9895a8;
 }
 .articles .art-item .card .card-text {
-    color: #233142;
+  color: #233142;
 }
 .articles .more a {
-    background-color: #233142;
-    color: #fff;
-    padding: 10px;
-    min-width: 200px;
-    position: relative;
-    top: 7px;
-    border: 2px solid #233142;
-    border-radius: 50px;
-    overflow: hidden;
-    transition: all .4s linear;
+  background-color: #233142;
+  color: #fff;
+  padding: 10px;
+  min-width: 200px;
+  position: relative;
+  top: 7px;
+  border: 2px solid #233142;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.4s linear;
 }
 .articles .more a span {
-    transition: all .4s linear;
+  transition: all 0.4s linear;
 }
 .articles .more a span:first-of-type {
-    z-index: 3;
-    position: relative;
-    
+  z-index: 3;
+  position: relative;
 }
-.articles .more a:hover{
-    animation: btn-wave .8s infinite ease-in-out;
-    border: 2px solid #8eceef;
-    background: none;
+.articles .more a:hover {
+  animation: btn-wave 0.8s infinite ease-in-out;
+  border: 2px solid #8eceef;
+  background: none;
 }
-.articles .more a:hover span:first-of-type{
-    color: #8eceef;
-    font-weight: bold;
+.articles .more a:hover span:first-of-type {
+  color: #8eceef;
+  font-weight: bold;
 }
 .articles .more a:hover span:last-of-type {
-    width: 100%;
-    height: 100%;
-    background-color: #FFF;
-    top: 0;
-    left: 0;
-    
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 0;
 }
 .articles .more span:last-of-type {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    z-index: 2;
-    border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  z-index: 2;
+  border-radius: 50px;
 }
 /* End Articles */
 /* Start Loading */
 .loading-override {
-    height: 100vh;
-    width: 100%;
-    background-color: #0099ff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #0099ff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .spinner {
-    width: 70px;
-    text-align: center;
+  width: 70px;
+  text-align: center;
 }
-  
-  .spinner > div {
-    width: 18px;
-    height: 18px;
-    background-color: #FFF;
-    border-radius: 100%;
-    display: inline-block;
-    -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
-    animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
   }
-  
-  .spinner .bounce1 {
-    -webkit-animation-delay: -0.32s;
-    animation-delay: -0.32s;
+  40% {
+    -webkit-transform: scale(1);
   }
-  
-  .spinner .bounce2 {
-    -webkit-animation-delay: -0.16s;
-    animation-delay: -0.16s;
+}
+
+@keyframes sk-bouncedelay {
+  0%,
+  80%,
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
   }
-  
-  @-webkit-keyframes sk-bouncedelay {
-    0%, 80%, 100% { -webkit-transform: scale(0) }
-    40% { -webkit-transform: scale(1.0) }
+  40% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
-  
-  @keyframes sk-bouncedelay {
-    0%, 80%, 100% { 
-      -webkit-transform: scale(0);
-      transform: scale(0);
-    } 40% { 
-      -webkit-transform: scale(1.0);
-      transform: scale(1.0);
-    }
-  }
+}
 /* End Loading */
